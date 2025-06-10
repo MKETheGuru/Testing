@@ -3,7 +3,7 @@
 This community-sourced collaborative document aims to provide a home for the running list of workarounds, ‘hacks’, and other alternative approaches that have helped creators overcome obstacles or break through barriers. These tips and tricks may not be common knowledge, but this document is meant to remedy that.
 <br><br>
 
-# __Response Template__  
+<!-- # __Response Template__  
 ## **Title**  
 Description  
 <br>
@@ -14,7 +14,7 @@ Additional Notes
 **Keywords**:  
 Tested in v218  
 **Credit**:  Username  
-<br><br>
+<br><br> -->
 
 # __Submission Form__  
 Worlds Workarounds can submitted via [this Google Form](https://docs.google.com/forms/d/e/1FAIpQLSfazKdHlNWtwUvvvxSET1q-JaV__xUAzDYBxLNRon7FJEk0Rw/viewform). *Please fill out **_all required fields_**
