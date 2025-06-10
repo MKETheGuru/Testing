@@ -137,4 +137,130 @@ Tested in v218
   **Credit**:  Daz1996  
   <BR>
 
+## **Scripted Purchase Flow Not Sending ‘onItemPurchaseComplete’**  
+  If you use the InWorldPurchase.launchCheckoutFlow() api, you will get OnItemPurchaseStart events, but not OnItemPurchaseComplete events to find out the results of the purchase action.  
+  <BR>
+  **Steps**:	Create an IWPSellerGizmo and configure its sku for the one you are selling via scripting. Just stick it somewhere in the world out of the way where people won't encounter it.  
+  <BR>
+  **Keywords**: TypeScript, In World Purchase  
+  Tested in v214  
+  **Credit**:  Shards 632  
+  <BR>
 
+## **Unable to Edit Scripts in Desktop Editor**  
+  Scripts can’t be edited inside the Desktop Editor  
+  <BR>
+  **Steps**:	Close and reopen the Desktop Editor  
+  <BR>
+  **Keywords**: Desktop Editor, TypeScript  
+  Tested in v214  
+  **Credit**:  MKE_TheGuru  
+  <BR>
+
+## **Spatial UI Not Updating with Changes**  
+  Spatial UIs are not updating after making and saving changes to the script in the code editor  
+  <BR>
+  **Steps**:	Close and reopen the Desktop Editor  
+  <BR>
+  **Keywords**: Desktop Editor, TypeScript, Custom UI  
+  Tested in v214  
+  **Credit**:  FreakyChest  
+  <BR>
+
+## **Scripted Asset Template Broken References**  
+  Scripted asset templates may load with broken script references causing the asset to not work as intended  
+  <BR>
+  **Steps**:	Create a new script to reference  
+  <BR>
+  **Keywords**: Desktop Editor, TypeScript, Asset Templates  
+  Tested in v218  
+  **Credit**:  Tellous  
+  <BR>
+
+## **Unable to Manipulate Static Entity (setInteraction)**  
+  Trying to manipulate a static entity via code results in error  
+  <BR>
+  **Steps**:	Update the entity’s motion type from ‘none’ to ‘animated’  
+  <BR>
+  Interaction types can also be dynamically updated via TypeScript using `this.entity.interactionMode.set(EntityInteractionMode.)`  
+  <BR>
+  **Keywords**: Desktop Editor, TypeScript, Codeblocks  
+  Tested in v218  
+  **Credit**:  InaCentaur  
+  <BR>
+
+## **Local CUI Images not Loading**  
+  Custom UI images are not loading on a UI set to ‘Local’ execution mode  
+  <BR>
+  **Steps**:	Preload the images and resources on a script with the execution mode set to ‘Default’  
+  <BR>
+  **Keywords**: Desktop Editor, TypeScript, Custom UI  
+  Tested in v218  
+  **Credit**:  SylGames  
+  <BR>
+
+  
+# __Custom Model Import Workarounds__  
+
+## **Shadows Persist Despite Disabling ‘Reflect Light/Cast Shadows’**  
+
+  **Steps**:	Duplicate the object  
+  <BR>
+  **Keywords**: Desktop Editor, Custom Model Import  
+  Tested in v214  
+  **Credit**:  Domeoc  
+  <BR>
+
+# __GenAI Workarounds__  
+
+## **GenAI Skydomes Have Black Border at Bottom**  
+
+  **Steps**:	Download generated cubemap, edit out ‘dead pixels’ at the bottom, and reupload as a Custom Skydome  
+  <BR>
+  **Keywords**: Desktop Editor, Custom Skydomes, Gen AI Toolset  
+  Tested in v218  
+  **Credit**:  MKE_TheGuru  
+  <BR>
+
+## **GenAI Gets Stuck at Random Percents**  
+  GenAI generation randomly getting stuck without finishing  
+  <BR>
+  **Steps**: Close and relaunch Desktop Editor  
+  <BR>
+  **Keywords**: Desktop Editor, GenAI Toolset  
+  Tested in v214  
+  **Credit**: Tellous  
+  <BR>
+
+## **GenAI Assets Not Showing In Assets**  
+  After generating a GenAI asset, it may not show up in the GenAI assets folder of the ‘My Assets’ folder of the asset library  
+  <BR>
+  **Steps**:	Click into a different folder and return to target folder  
+  <BR>
+  **Keywords**: Desktop Editor, GenAI. Asset Library  
+  Tested in v214  
+  **Credit**:  Tellous  
+  <BR>
+
+## **Unable to Retexture Mesh with GenAI**  
+  Unable to retexture a mesh using the GenAI texture generator  
+  <BR>
+  **Steps**:	Ensure the single mesh you wish to retexture is selected before running the GenAI texture generator  
+  <BR>
+  **Keywords**: Desktop Editor, GenAI Toolset, Custom Model Import  
+  Tested in v218  
+  **Credit**:  MKE_TheGuru  
+  <BR>
+
+
+# __Other Workarounds__  
+
+## **Capturing World Media**  
+  Capturing cinematic video of worlds for media material (marketing, promo, etc...) is challenging/impossible  
+  <BR>
+  **Steps**:	Program a controllable camera rig for use on mobile/desktop utilizing the Camera API  
+  <BR>
+  **Keywords**: Desktop Editor, TypeScript, Marketing  
+  Tested in v218  
+  **Credit**:  MKE_TheGuru  
+  <BR>
