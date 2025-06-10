@@ -22,7 +22,7 @@ Tested in v218
 
 # __Submission Form__  
 
-  Worlds Workarounds can submitted via [this Google Form](https://docs.google.com/forms/d/e/1FAIpQLSfazKdHlNWtwUvvvxSET1q-JaV__xUAzDYBxLNRon7FJEk0Rw/viewform). *Please fill out **_all required fields_**
+  Worlds Workarounds can submitted via [this Google Form]([https://docs.google.com/forms/d/e/1FAIpQLSfazKdHlNWtwUvvvxSET1q-JaV__xUAzDYBxLNRon7FJEk0Rw/viewform](https://forms.gle/1sBLGUYuJRX7V5dx5)). *Please fill out **_all required fields_**
   <br><br>
 
 # __Desktop Editor Workarounds__  
